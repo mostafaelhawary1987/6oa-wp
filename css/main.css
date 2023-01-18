@@ -1417,3 +1417,378 @@ html[dir="ltr"] .f-ti li {
 .f-ti li {
   width: 45%;
 }}
+
+
+/*---------------------contact-us------------------------------*/
+.contacts {
+
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  margin-bottom: 60px;
+
+}
+.contact-us.apply {
+  height: 516px;
+
+  border-radius: 0px 10px 10px 0px;
+  padding: 60px 25px;
+
+  background-color: #fcfcfc;
+  -webkit-box-shadow: 4px 5px 18px rgb(0 0 0 / 5%);
+  box-shadow: 4px 5px 18px rgb(0 0 0 / 5%);
+}
+.contact-us.details {
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+  background-color: var(--main-color);
+  color: var(--side-color);
+  padding: 65px 60px;
+}
+.contact-us.details h2 {
+  font-size: 25px;
+  font-family: "tjBold";
+}
+.contact-us.details h2 {
+  font-size: 25px;
+  font-family: "tjBold";
+  margin-bottom: 45px;
+}
+.social-foot.contact h3 {
+  font-size: 20px;
+  font-family: "tjBold";
+  margin-bottom: 30px;
+}
+.contact-us.details .f-ti li > i {
+  width: 33px;
+  height: 33px;
+  background-color: var(--side-color);
+  color: var(--sec-color);
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 33px;
+  text-align: center;
+  margin-left: 21px;
+  margin-bottom: 15px;
+}
+.social-foot.contact i {
+  color: var(--sec-color);
+  text-align: center;
+  margin: 10px 7px;
+  width: 33px;
+  height: 33px;
+  background-color: var(--bread-color);
+  line-height: 33px;
+  border-radius: 50%;
+}
+.cont .form_input {width: 100%;
+  height: 48px;
+  border: 0px;
+  border-bottom: 1px solid #ececec;
+  padding: 0px 15px;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+  .cont textarea {
+    width: 100%;
+    height: 127px;
+    outline: 0;
+    padding: 10px 12px;
+    border:0;
+    border-bottom: 1px solid #ececec;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;}
+
+    .cont textarea:focus {
+      border-color: var(--main-color
+      );
+  }
+ 
+  textarea::placeholder {
+    color: #465A61;
+    font-size: 16px;
+    font-family: "tjMd";
+  }
+    .form_input::-webkit-input-placeholder {
+      color: var(--main-color);
+  }
+  .form_input:-ms-input-placeholder {
+      color: var(--main-color);
+  }
+  .form_input::-ms-input-placeholder {
+      color: var(--main-color);
+  }
+  .form_input::placeholder {
+    color: #465A61;
+      font-size: 16px;
+      font-family: "tjMd";
+  }
+  .form_input:focus {
+    border-color: var(--main-color);
+}
+
+    .ask-send .btn{
+
+   
+     
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+
+
+      -webkit-box-shadow: 4px 5px 18px rgb(0 0 0 / 5%);
+  box-shadow: 4px 5px 18px rgb(0 0 0 / 5%);
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      text-transform: uppercase;
+      margin-top: 30px;
+      display: block;
+    width: 206px;
+    height: 59px;
+    border: 1px solid transparent;
+
+    border-radius: 20px;
+    text-align: center;
+    -webkit-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    transition: 0.8s ease;
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 20px;
+    font-family: "tjBold";
+    margin-top: 40px;
+    }
+      .ask-send .btn:hover{
+        border-color: var(--main-color);
+    background-color: #ffffff;
+    color: var(--main-color);}
+      .con.map{border-radius: 10px;
+        overflow: hidden;
+        padding-bottom: 100px;    padding-top: 75px;}
+    
+      .sec-tal input {
+        width: 100%;
+    }
+    
+    .spbox {
+        height: 48px;
+    }
+    
+    .spbox.btn-group .dropdown-menu {
+        z-index: 999999;
+        box-shadow: none;
+    }
+    
+    .spbox:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    
+    .spbox .dropdown-menu>li>a {
+        padding: 5px 10px
+    }
+    
+    .spbox.btn-group .dropdown-menu li a {
+        outline: none !important;
+        box-shadow: none;
+        color: #465A61;
+        background: none
+    }
+    .spbox .btn-default:hover {
+    
+      background-color: #ffffff !important;
+      border-color: var(--main-color) !important;
+  }
+    .spbox.btn-group .dropdown-menu li:not(.disabled) a:hover {
+        color: var(--main-color);
+        background: transparent
+    }
+    
+    .spbox .btn:focus {
+        outline: none !important;
+        outline-offset: 0px;
+        box-shadow: none
+    }
+    
+    .spbox.btn-group.open .dropdown-toggle {
+        box-shadow: none
+    }
+    
+    .spbox.selected,
+    .spbox.btn-group .dropdown-menu li {
+        outline: none !important;
+        outline-offset: 0px;
+        box-shadow: none
+    }
+    
+    .spbox .btn.dropdown-toggle.btn-default {
+      height: 55px;
+      border: 1px solid #ececec;
+      width: 100%;
+      margin-bottom: 15px;
+      color: #465A61;
+      border-radius: 15px;
+      font-size: 16px;
+      font-family: "tjMd";
+      padding: 0px 15px;
+    }
+    
+    .spbox.open>.dropdown-toggle.btn-default,
+    .spbox .btn-default:active:hover,
+    .spbox .btn-default.active:hover,
+    .spbox.open>.dropdown-toggle.btn-default:hover,
+    .spbox .btn-default:active:focus,
+    .spbox .btn-default.active:focus,
+    .spbox.open>.dropdown-toggle.btn-default:focus,
+    .spbox .btn-default.focus:active,
+    .spbox .btn-default.active.focus,
+    .spbox.open>.dropdown-toggle.btn-default.focus {
+        background-color: #fff;
+
+        border-color: rgb(50 54 130 / 60%);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(50 54 130 / 60%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(50 54 130 / 60%);
+    }
+    
+    
+    
+    .spbox.btn-group .dropdown-toggle .caret {
+        right: auto;
+        left: 25px;
+        color: #c1c1c1
+    }
+    
+   
+    
+    .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+      color: #c0c2c3;
+      font-size: 14px;
+      font-family: "tjMd";
+      text-align: right;
+    }
+    
+    .btn.active,
+    .btn:active {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    @media (max-width: 768px) {
+      .about-page-one {
+        padding-bottom: 0px;
+    }
+    }
+    .branch-add>h2{position: relative;
+      display: block;
+      font-size: 26px;
+      font-family: "tjBold";
+      color: var(--main-color);
+      margin-top: 35px;
+      margin-bottom: 25px;}
+      .branch-add>h2::after {
+        width: 52px;
+        height: 2px;
+        content: "";
+        display: block;
+        background-color: var(--sec-color);
+        margin-top: 8px;
+    }
+    .branch-flex{display: flex;
+    
+      flex-wrap: wrap;}
+    .add-branch-contact{
+      margin: 0px 15px;
+      padding: 20px;
+      justify-content: center;
+      display: flex;
+      width: 350px;
+      background-color: #FCFCFC;
+      min-height: 167px;
+      border: 2px solid #FCFCFC;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+      box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+      display: flex;
+      flex-direction: column;
+    }
+      .add-branch-contact h2{
+        font-size: 21px;
+        color: var(--sec-color);
+        font-family: "tjBlk";
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .add-branch-contact p{
+        font-family: "tjBold";
+        font-size: 15px;
+        color: #888888;
+        width: 100%;
+        line-height: 25px;
+        margin: 10px 0px;
+      }
+      .add-call{    display: flex;
+        justify-content: space-around;}
+      .add-call span{
+        color: #888888;
+        font-size: 17px;
+        font-family: "tjBlk";
+      }
+      .add-call i{
+        color: var(--main-color);
+        font-size: 16px;
+        margin: 0px 5px;
+      }
+      @media (max-width: 992px) {
+        .add-branch-contact {
+          width: 280px;
+      }
+      .add-call {
+        flex-direction: column;
+    }
+      }
+      @media (max-width: 991px) {
+        .contact-us.details{display: none;}
+        .add-branch-contact{width: 45%;}
+      }
+      @media (max-width: 480px){
+.add-branch-contact {
+    width: 100%;
+}}
+.head-title {
+  text-align: center;
+}
+.head-title h4{
+  color: var(--main-color);
+  font-size: 30px;
+  margin-bottom: 60px;}
+.head-title h2 {
+  position: relative;
+  color: var(--main-color);
+  font-size: 40px;
+  font-family: "tjBlk";
+  margin-bottom: 60px;
+  margin-top: 55px;
+}
+.head-title h2::before {
+  content: ""; 
+  position: absolute;
+  width: 28px;
+  height: 6px;
+  top: 70px;
+  left: 50%;
+  background-color: var(--sec-color);
+  transform: translateX(-50%);
+}.about-page-one{
+  padding-bottom: 70px;
+  position: relative;
+
+  background-color: #ffff;
+}
