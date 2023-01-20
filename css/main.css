@@ -1772,10 +1772,10 @@ html[dir="ltr"] .f-ti li {
 .head-title h2 {
   position: relative;
   color: var(--main-color);
-  font-size: 40px;
+  font-size: 30px;
   font-family: "tjBlk";
-  margin-bottom: 60px;
   margin-top: 55px;
+  padding-bottom: 100px;
 }
 .head-title h2::before {
   content: ""; 
@@ -1789,6 +1789,222 @@ html[dir="ltr"] .f-ti li {
 }.about-page-one{
   padding-bottom: 70px;
   position: relative;
-
-  background-color: #ffff;
+  padding-top: 50px;
+  background-color: #fafafa;
 }
+/* PressPage */
+.about-page-flex p{
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 25px;
+  font-size: 17px;
+  font-family: "tjMd";
+  color: var(--text-color);
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+    box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+  line-height: 1.643;}
+  .about-page-flex ul{
+    line-height: 1.699;
+    font-size: 18px;
+    color: var(--text-color);
+    padding: 10px 0;
+    margin: 0;
+  }
+  .about-page-flex span{font-size: 18px;
+    color: var(--text-color);}
+  .about-page-flex ul li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .about-page-flex ul li:before {
+    width: 6px;
+    height: 6px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    content: "";
+    display: block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 11px 0 0;
+    -webkit-margin-end: 12px;
+    margin-inline-end: 12px;
+}
+
+.about-page-flex h2{position: relative;
+  display: block;
+  font-size: 26px;
+  font-family: "tjBold";
+  color: var(--main-color);
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.about-page-flex h2::after {
+  width: 52px;
+  height: 2px;
+  content: "";
+  display: block;
+  background-color: var(--sec-color);
+  margin-top: 8px;
+}
+.sign-now p{
+  margin-top: 45px;
+  background-color: var(--main-color);
+  color:  var(--side-color);
+}
+.sign-now a{
+  font-size: 18px;
+  font-family: "tjBlk";
+  display: inline-block;
+  color:  var(--side-color);
+  text-decoration: underline;
+  margin: 0px 5px;
+  -webkit-transition: 0.8s ease;
+  -o-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+.sign-now a:hover{
+  color: var(--sec-color);
+}
+/* PressPage */
+/* trainingPage */
+.train{background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;}
+/* trainingPage */
+/* MajorsPage */
+
+.feat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feat-one {
+  margin: 0px 15px;
+  /* padding: 20px; */
+  justify-content: center;
+  display: flex;
+  width: 254px;
+ 
+  background-color: #FCFCFC;
+  height: 266px;
+  border: 2px solid #FCFCFC;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+  box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+}
+.feat-1 .feat-photo{margin-top: 15px;
+  margin-bottom: 15px;}
+.feat-one:hover {
+ border-color:  var(--sec-color);
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.feat-photo img{    width: 150px;    margin: auto;
+  height: 150px;}
+.feat-title span{font-size: 19px;
+  color: var(--main-color);
+  font-family: "tjBlk";
+}
+.feat-title .feat-la{font-size: 19px;
+  color: var(--main-color);
+  font-family: "tjBlk";
+}
+.feat-title{text-align: center;}
+/* MajorsPage */
+/* singlbuild */
+
+.evt-in {
+  display: flex;
+  margin: 0px -30px;
+  flex-wrap: wrap;
+}
+.event-sec {
+  width: 30%;
+  margin: 0px 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+  box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+}
+.event-photo img{    border-radius: 8px;}
+@media (max-width: 991px) {
+  .event-sec {
+    width: 29%;}
+}
+@media (max-width: 480px) {
+  .event-sec {
+    width: 43%;}
+}
+@media (max-width: 425px) {
+  .event-sec {
+    width: 100%;}
+}
+/* singlbuild */
+/* questions */
+.que{
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  width:100%;
+  background-color: #FCFCFC;
+  min-height: 167px;
+  border: 2px solid #FCFCFC;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+  box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+  display: flex;
+  flex-direction: column;}
+  .que h3{font-size: 21px;
+    color: var(--sec-color);
+    font-family: "tjBlk";
+    margin-top: 0;
+    margin-bottom: 0;}
+  .que p{    font-family: "tjBold";
+    font-size: 15px;
+    color: #888888;
+    width: 100%;
+    line-height: 25px;
+    margin: 17px 0px;}
+/* questions */
+/* meeting */
+.even-date p {
+  font-size: 18px;
+  margin-top: 15px;
+  display: block;
+  color: #000;
+}
+.even-date{height: 70px;}
+/* meeting */
+/* partners */
+
+.part-photo
+{   
+  display: flex; flex-wrap: wrap;padding: 10px;
+  background-color: #ffff;
+  padding: 35px;
+    border-radius: 25px;justify-content: space-between;
+    margin: auto;
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);
+   box-shadow: 0px 0px 8px 0px rgb(1 1 1 / 10%);}
+
+  .part-log .event-photo img{height: 169px;
+    width: 169px;}
+  /* partners */
+  .build a{    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+    color: var(--main-color);
+    font-family: "tjBold"; -webkit-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    transition: 0.8s ease;}
+    .build a:hover{color:var(--sec-color)}
